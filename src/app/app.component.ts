@@ -15,7 +15,7 @@ declare var jQuery: any;
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  pdfSrc: string | PDFSource | ArrayBuffer = '../assets/example.pdf';
+  pdfSrc: string | PDFSource | ArrayBuffer = '../assets/pdftron-sdk.pdf';
 
   error: any;
   page = 1;
